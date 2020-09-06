@@ -26,9 +26,9 @@ const App = () => {
         </nav>
         <Switch>
           <Route path="/sign-in" />
-          <h1>SignIn</h1>
+          <h1>Sign In</h1>
           <Route path="/sign-up" />
-          <h1>SignUp</h1>
+          <h1>Sign Up</h1>
           <Route path="/manage/links/create" />
           <h1>Create link</h1>
           <Route path="/manage/links/edit" />
