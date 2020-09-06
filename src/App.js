@@ -25,16 +25,11 @@ const App = () => {
           </ul>
         </nav>
         <Switch>
-          <Route path="/sign-in" />
-          <h1>Sign In</h1>
-          <Route path="/sign-up" />
-          <h1>Sign Up</h1>
-          <Route path="/manage/links/create" />
-          <h1>Create link</h1>
-          <Route path="/manage/links/edit" />
-          <h1>Edit links</h1>
-          <Route path="/" />
-          <h1>Home</h1>
+          <Route path="/sign-in"><h1>Sign In</h1></Route>
+          <Route path="/sign-up"><h1>Sign Up</h1></Route>
+          <Route path="/manage/links/create"><h1>Create Links</h1></Route>
+          <Route path="/manage/links/edit"><h1>Edit Links</h1></Route>
+          <Route path="/"><h1>Home</h1></Route>
         </Switch>
       </div>
     </BrowserRouter>
